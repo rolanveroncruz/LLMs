@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="ollama" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="ollama" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="langchain" project-jdk-type="Python SDK" />
 </project>
