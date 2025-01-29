@@ -1,4 +1,5 @@
 import json
+
 from langchain_core.load import loads
 # from langchain_voyageai import VoyageAIEmbeddings
 from langchain_ollama import OllamaEmbeddings
@@ -10,10 +11,10 @@ from datetime import datetime
 
 
 load_dotenv()
-VOYAGE_API_KEY=os.environ["VOYAGE_LEGALAID_API_KEY"]
-QDRANT_URL=os.environ["QDRANT_LOCATION"]
-QDRANT_API_KEY=os.environ["QDRANT_KEY"]
-QDRANT_LOCAL_DOCKER=os.environ["QDRANT_LOCAL_DOCKER"]
+VOYAGE_API_KEY = os.environ["VOYAGE_LEGALAID_API_KEY"]
+QDRANT_URL = os.environ["QDRANT_LOCATION"]
+QDRANT_API_KEY = os.environ["QDRANT_KEY"]
+QDRANT_LOCAL_DOCKER = os.environ["QDRANT_LOCAL_DOCKER"]
 
 
 start_time = datetime.now()
@@ -41,7 +42,7 @@ for i in range(num_parts):
     print(f"uploading records: {start_idx} to {end_idx} ")
     qd_start = time.time()
     qdrant_a = QdrantVectorStore.from_documents(documents=all_splits[start_idx:end_idx], embedding=embeddings,
-                                                url=QDRANT_LOCAL_DOCKER, collection_name="legal_docs_ollama")
+                                                url=QDRANT_LOCAL_DOCKER, collection_name="legal_docs_voyageai")
     qd_end = time.time()
     print(f"upload took {(qd_end - qd_start)/60} minutes")
     now_datetime = datetime.now()
@@ -50,4 +51,3 @@ for i in range(num_parts):
     print(f"minutes from start:{time_from_start} minutes")
 
 print("Done")
-
