@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda7248b-4906-4f9a-8fda-2ed8fc565af7" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/langchain_RAG_tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LLMs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LLMs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dda7248b-4906-4f9a-8fda-2ed8fc565af7" name="Changes" comment="legalaid_test_qdrant_cloud ok.">
+      <change afterPath="$PROJECT_DIR$/o1-mini result.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ollama_arch.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LegalAid_load_from_splits_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/LegalAid_load_from_splits_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/legalaid_test_local_qdrant.py" beforeDir="false" afterPath="$PROJECT_DIR$/legalaid_test_local_qdrant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/legalaid_test_qdrant_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/legalaid_test_qdrant_cloud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.LegaiAid load from splits file.executor": "Run",
     "Python.LegalAId indexer.executor": "Run",
+    "Python.LegalAid Test Local Qdrant.executor": "Debug",
+    "Python.LegalAid Test Qdrant Cloud.executor": "Run",
     "Python.LegalAid_indexer.executor": "Run",
     "Python.how_to.executor": "Debug",
     "Python.lc_html_loader.executor": "Run",
@@ -63,18 +65,23 @@
     "Python.test_qdrant.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "add__doc__sources",
     "last_opened_file_path": "/Users/rolanvc/LLMs/LLMs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.LegaiAid load from splits file">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.LegalAid Test Qdrant Cloud">
     <configuration name="LegaiAid load from splits file" type="PythonConfigurationType" factoryName="Python">
       <module name="LLMs" />
       <option name="ENV_FILES" value="" />
@@ -84,6 +91,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="LegalAid" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -121,6 +129,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="LegalAid Test Local Qdrant" type="PythonConfigurationType" factoryName="Python">
+      <module name="LLMs" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$/.env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="LegalAid" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/legalaid_test_local_qdrant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LegalAid Test Qdrant Cloud" type="PythonConfigurationType" factoryName="Python">
+      <module name="LLMs" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$/.env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="LegalAid" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/legalaid_test_qdrant_cloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="LLMs" />
       <option name="ENV_FILES" value="" />
@@ -148,6 +204,8 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.LegalAId indexer" />
       <item itemvalue="Python.LegaiAid load from splits file" />
+      <item itemvalue="Python.LegalAid Test Local Qdrant" />
+      <item itemvalue="Python.LegalAid Test Qdrant Cloud" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -169,7 +227,7 @@
       <workItem from="1733888886395" duration="2229000" />
       <workItem from="1734218137569" duration="15909000" />
       <workItem from="1736127324835" duration="63329000" />
-      <workItem from="1737470606322" duration="10010000" />
+      <workItem from="1737470606322" duration="46172000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -187,7 +245,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737335009932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add langchain_RAG_tutorial.ipynb">
+      <option name="closed" value="true" />
+      <created>1737675510266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737675510266</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".idea files and added .gitignore">
+      <option name="closed" value="true" />
+      <created>1737675675871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737675675871</updated>
+    </task>
+    <task id="LOCAL-00005" summary="legalaid_test_qdrant_cloud ok.">
+      <option name="closed" value="true" />
+      <created>1738160911878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738160911878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +280,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="try_voyageai_again" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -206,7 +300,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add langchain_RAG_tutorial.ipynb" />
+    <MESSAGE value=".idea files and added .gitignore" />
+    <MESSAGE value="legalaid_test_qdrant_cloud ok." />
+    <option name="LAST_COMMIT_MESSAGE" value="legalaid_test_qdrant_cloud ok." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,20 +313,39 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/legalaid_test_local_qdrant.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/legalaid_test_local_qdrant.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///home/rolanvc/LLMs/LLMs/unstructured_html_loader.ipynb</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LLMs$main.coverage" NAME="main Coverage Results" MODIFIED="1736740305727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LLMs$LegaiAid_load_from_splits_file.coverage" NAME="LegaiAid load from splits file Coverage Results" MODIFIED="1737533114253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LLMs$LegaiAid_load_from_splits_file.coverage" NAME="LegaiAid load from splits file Coverage Results" MODIFIED="1738049992444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/LLMs$LegalAId_indexer.coverage" NAME="LegalAId indexer Coverage Results" MODIFIED="1737471662585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LLMs$LegalAid_Test_Local_Qdrant.coverage" NAME="LegalAid Test Local Qdrant Coverage Results" MODIFIED="1738192013633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/LLMs$learn_langchain.coverage" NAME="learn_langchain Coverage Results" MODIFIED="1735951657909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMs$lc_html_loader.coverage" NAME="lc_html_loader Coverage Results" MODIFIED="1737114033259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LLMs$LegalAid_Test_Qdrant_Cloud.coverage" NAME="LegalAid Test Qdrant Cloud Coverage Results" MODIFIED="1738291278147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/LLMs$test_qdrant.coverage" NAME="test_qdrant Coverage Results" MODIFIED="1736129634490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMs$how_to.coverage" NAME="how_to Coverage Results" MODIFIED="1736740167697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMs$LegalAid_indexer.coverage" NAME="LegalAid_indexer Coverage Results" MODIFIED="1737114091235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

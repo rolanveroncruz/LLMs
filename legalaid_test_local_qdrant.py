@@ -72,7 +72,12 @@ class State(TypedDict):
 
 
 def retrieve(state: State):
-    # state is a dict of {"question": 'What....?"}
+    """
+
+    :param state: a dict of {"question": 'What....?"}
+    :return: the state dict with:
+    """
+    # state is
     retrieved_docs = vector_store.similarity_search(state["question"], k=10)
     print(f"retrieved {len(retrieved_docs)} documents")
     print("****")
@@ -81,7 +86,7 @@ def retrieve(state: State):
 
 def generate(state: State):
     # state now is dict of {"question": "...", "context": [doc]}
-    docs_content = "\n\n".join(doc.page_content for doc in state["context"])
+    docs_content = "\n\n".join(f"{doc.page_content}" for doc in state["context"])
     # TODO: source of each document should be usable by LLM.
     # docs_content is now a long string of the various contents of the context list.
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
