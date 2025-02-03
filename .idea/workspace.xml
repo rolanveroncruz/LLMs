@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda7248b-4906-4f9a-8fda-2ed8fc565af7" name="Changes" comment="legalaid_test_qdrant_cloud ok.">
-      <change afterPath="$PROJECT_DIR$/o1-mini result.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ollama_arch.ipynb" afterDir="false" />
+    <list default="true" id="dda7248b-4906-4f9a-8fda-2ed8fc565af7" name="Changes" comment="o1-mini results">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legalaid_test_local_qdrant.py" beforeDir="false" afterPath="$PROJECT_DIR$/legalaid_test_local_qdrant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legalaid_test_qdrant_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/legalaid_test_qdrant_cloud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +223,7 @@
       <workItem from="1733888886395" duration="2229000" />
       <workItem from="1734218137569" duration="15909000" />
       <workItem from="1736127324835" duration="63329000" />
-      <workItem from="1737470606322" duration="46172000" />
+      <workItem from="1737470606322" duration="47010000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -269,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738160911878</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="o1-mini results">
+      <option name="closed" value="true" />
+      <created>1738316248382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738316248382</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +307,8 @@
     <MESSAGE value="add langchain_RAG_tutorial.ipynb" />
     <MESSAGE value=".idea files and added .gitignore" />
     <MESSAGE value="legalaid_test_qdrant_cloud ok." />
-    <option name="LAST_COMMIT_MESSAGE" value="legalaid_test_qdrant_cloud ok." />
+    <MESSAGE value="o1-mini results" />
+    <option name="LAST_COMMIT_MESSAGE" value="o1-mini results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,7 +350,7 @@
     <SUITE FILE_PATH="coverage/LLMs$LegalAid_Test_Local_Qdrant.coverage" NAME="LegalAid Test Local Qdrant Coverage Results" MODIFIED="1738192013633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/LLMs$learn_langchain.coverage" NAME="learn_langchain Coverage Results" MODIFIED="1735951657909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMs$lc_html_loader.coverage" NAME="lc_html_loader Coverage Results" MODIFIED="1737114033259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LLMs$LegalAid_Test_Qdrant_Cloud.coverage" NAME="LegalAid Test Qdrant Cloud Coverage Results" MODIFIED="1738291278147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LLMs$LegalAid_Test_Qdrant_Cloud.coverage" NAME="LegalAid Test Qdrant Cloud Coverage Results" MODIFIED="1738316067335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/LLMs$test_qdrant.coverage" NAME="test_qdrant Coverage Results" MODIFIED="1736129634490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMs$how_to.coverage" NAME="how_to Coverage Results" MODIFIED="1736740167697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMs$LegalAid_indexer.coverage" NAME="LegalAid_indexer Coverage Results" MODIFIED="1737114091235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
