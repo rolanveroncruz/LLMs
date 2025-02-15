@@ -1,8 +1,8 @@
 import json
 
 from langchain_core.load import loads
-# from langchain_voyageai import VoyageAIEmbeddings
-from langchain_ollama import OllamaEmbeddings
+from langchain_voyageai import VoyageAIEmbeddings
+#from langchain_ollama import OllamaEmbeddings
 import os
 from dotenv import load_dotenv
 from langchain_qdrant import QdrantVectorStore
@@ -23,7 +23,8 @@ print(f"Now is: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 with open("./data/all_splits.json", "r") as infile:
     all_splits = loads(json.load(infile))
 
-embeddings = OllamaEmbeddings(model="llama3.2")
+# embeddings = OllamaEmbeddings(model="llama3.2")
+embeddings = VoyageAIEmbeddings()
 
 num_parts = 100
 part = len(all_splits)//num_parts

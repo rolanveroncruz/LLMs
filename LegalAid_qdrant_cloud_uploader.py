@@ -1,3 +1,6 @@
+"""
+ This script takes the langchain Documents in data/all_splits.json, and uploads them to Qdrant using VoyageAI embeddings.
+"""
 from langchain_community.document_loaders import BSHTMLLoader, UnstructuredHTMLLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_voyageai import VoyageAIEmbeddings
@@ -9,48 +12,8 @@ from datetime import datetime
 from langchain_core.load import dumps
 import json
 
-
+all_splits = json.load(open("data/all_splits.json"))
 start_time = datetime.now()
-print(f"Now is: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
-
-load_dotenv()
-##############
-# Step One: Gather all docs, run them through UnstructuredHTMLLoader
-##############
-file_path = "../scrapeLaws/data/decisions/2024/Apr/A.C. No. 10627 (from A.C. No. 6622).html"
-data_path = "../scrapeLaws/data"
-docs = []
-total_docs = 0
-for root, dirs, files in os.walk(data_path):
-    for file in files:
-        filename, file_extension = os.path.splitext(file)
-        if file_extension == ".html":
-            file_path = os.path.join(root, file)
-            total_docs += 1
-            loader_uns = UnstructuredHTMLLoader(file_path)
-            print(f"processing: {file_path}")
-            try:
-                for doc in loader_uns.load():
-                    docs.append(doc)
-            except UnicodeDecodeError:
-                print(f"*******Problem with****: {file_path} *********************************************************************")
-print(f"Total documents: {total_docs}")
-print(f"Total Documents: {len(docs)}")
-print(f"Step One Done.")
-
-
-text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000,  # chunk size (characters)
-    chunk_overlap=200,  # chunk overlap (characters)
-    add_start_index=True,  # track index in original document
-)
-all_splits = text_splitter.split_documents(docs)
-string_rep = dumps(all_splits)
-with open("./data/all_splits.json", "w") as outfile:
-    json.dump(string_rep, outfile)
-
-exit(0)
-
 
 VOYAGE_API_KEY=os.environ["VOYAGE_LEGALAID_API_KEY"]
 emb_vectors = []

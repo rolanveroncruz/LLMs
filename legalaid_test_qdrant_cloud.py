@@ -1,19 +1,22 @@
+"""
+This tests a simple RAG app.
+"""
 #!/usr/bin/env python
 # coding: utf-8
 from langchain_voyageai import VoyageAIEmbeddings
-from langchain_ollama import OllamaEmbeddings
+# from langchain_ollama import OllamaEmbeddings
 from qdrant_client import QdrantClient
 from langchain_qdrant import QdrantVectorStore
 from langchain import hub
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage
-from langchain_ollama.llms import OllamaLLM
+# from langchain_ollama.llms import OllamaLLM
 import os
-from langgraph.graph import START, StateGraph
+# from langgraph.graph import START, StateGraph
 from typing_extensions import List, TypedDict
 from dotenv import load_dotenv
 from langchain_core.documents import Document
-from deepseek import DeepSeekAPI
+# from deepseek import DeepSeekAPI
 from langchain_openai import ChatOpenAI
 
 load_dotenv()
