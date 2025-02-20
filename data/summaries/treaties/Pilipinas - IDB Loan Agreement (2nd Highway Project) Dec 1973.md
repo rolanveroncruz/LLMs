@@ -1,0 +1,3 @@
+This text does not appear to be related to the procurement of weighbridges, but rather is a set of standards for highway design. The document is labeled as Schedule 5 and appears to be part of a larger agreement or contract between parties. It outlines various design parameters and specifications for different types of highways and roads.
+
+If you're looking for information on the procurement of weighbridges, I'd be happy to try and help you find it. However, without more context or information, it's difficult to determine what provisions would apply in such a case.

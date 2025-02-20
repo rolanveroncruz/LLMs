@@ -1,0 +1,11 @@
+This is a Memorandum of Understanding (MOU) between the Government of Australia and the Government of the Republic of the Philippines regarding a collaborative project. The MOU outlines the terms and conditions for cooperation, including:
+
+1. Review and approval process: The MOU states that the Australian High Commissioner in Manila will be joined by the relevant ACIAR program coordinator and the DFA representative during the review process.
+2. Procurement: The Philippine Government will be responsible for payment of import duties, VAT, and other taxes imposed in the Philippines. They will also facilitate clearance and release of imported project supplies and motor vehicles.
+3. Personal effects: The Philippine Government will expedite clearance through customs for personal and household effects, including motor vehicles, for Australian personnel or their dependants arriving within six months from the date of their first arrival in the Philippines or the signing of the MOU.
+4. Exportation: At the end of the assignment, the Philippine Government will be responsible for payment of all customs duties, taxes, levies, and other charges related to exportation of professional and technical material, personal and household effects, and motor vehicles for personal use.
+5. Local laws and regulations: The Philippine Co-ordinating Authority and Implementing Agency(s) will inform Australian firms, institutions, and organizations about local laws and regulations that may concern them.
+6. Claims: The Philippine Government will deal with any claims brought by third parties against Australian personnel and firms, holding them harmless from civil liability except in cases of gross negligence and willful misconduct.
+7. Security: The Philippine Government will provide security arrangements for Australian personnel and their dependents and property on project sites and elsewhere when involved in official activities.
+
+Overall, the MOU aims to establish a framework for cooperation between the two governments, ensuring that both parties fulfill their obligations and responsibilities under the project.

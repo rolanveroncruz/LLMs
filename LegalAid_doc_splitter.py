@@ -13,7 +13,7 @@ import json
 import random
 
 
-def get_url(path:str, file_name:str) ->str|None:
+def get_doc_number_and_url(path:str, file_name:str) ->[int|None, str|None]:
     """
     From the path of the file and its filename, we look for the appropriate json file, and get the doc_number doc_type_number.
     From these, we can form the url as: f"https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/{document_number[0]}/{document_number[1]}"
@@ -32,44 +32,49 @@ def get_url(path:str, file_name:str) ->str|None:
 
     if file_ext == ".html":
         path_arr = path.split('/')
-        # path_arr = ['..', 'scrapeLaws', 'data', 'decisions', '2024', 'Apr', '']
-        if path_arr[-1] == '':
-            type_index = -4
+        if len(path_arr) > 5:
+            if path_arr[-1] == '':
+                type_index = -4
+            else:
+                type_index = -3
+            subtype_index = type_index - 1
+            if path_arr[type_index] == 'decisions':
+                doc_type_name = 'decisions'
+            else:
+                if path_arr[subtype_index] == 'executive_issuances':
+                    doc_type_name_0 = 'ei'
+                else:
+                    doc_type_name_0 = path_arr[subtype_index]
+                doc_type_name = doc_type_name_0 + '_' + path_arr[type_index]
         else:
-            type_index = -3
-        subtype_index = type_index - 1
-        if path_arr[type_index] == 'decisions':
-            doc_type_name = 'decisions'
-        else:
-            doc_type_name = path_arr[subtype_index] + '_' + path_arr[type_index]
+            # len(path_arr) <= 5, there are no years/months, as of Feb 16 only laws/rules_of_court
+            # don't have year-months.
+            doc_type_name = "laws_rules_of_court"
+
         json_file_name = json_file_base_path + doc_type_name + '.json'
         print(f"json_file_name: {json_file_name}")
         print(f"key is:{doc_name}")
-        json_file = json.load(open(json_file_name, "r"))
+        try:
+            json_file_h = open(json_file_name, 'r')
+        except Exception as e:
+            print(e)
+        json_file = json.load(json_file_h)
         document_number = json_file.get(doc_name, None)
         if document_number is not None:
-            return f"https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/{document_number[0]}/{document_number[1]}"
+            return document_number[1], f"https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/{document_number[0]}/{document_number[1]}"
         else:
             # we don't have a filename-key match, find the best one, defined as the string whose substring is the doc_name.
             filename_keys = json_file.keys()
             matches = [s for s in filename_keys if doc_name in s]
             if len(matches) ==0:
                 print(f"Problem with {doc_name} in {json_file_name}")
-                return None
+                return 0, f"https://elibrary.jusiciary.gov.ph"
             if len(matches) == 1:
                 document_number = json_file[matches[0]]
-                return f"https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/{document_number[0]}/{document_number[1]}"
-            elif len(matches)==2:
-                # flip a coin.
-                toss_head = random.randrange(0,2)
-                if toss_head:
-                    document_number = json_file[matches[0]]
-                else:
-                    document_number = json_file[matches[1]]
-            elif len(matches)>2:
-                print(f"Problem with {doc_name} in {json_file_name}")
-
-
+                return document_number[1], (f"https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/"
+                                            f"{document_number[0]}/{document_number[1]}")
+            else:
+                return None, None
 
 
 def update_metadata(doc_to_update: Document, doc_to_update_number: int,name:str, title:str) -> None:
@@ -85,11 +90,13 @@ def update_metadata(doc_to_update: Document, doc_to_update_number: int,name:str,
 
 def get_doc_title(path:str, file_name:str)->str:
     """
-
+    Hmmm, isn't the file_name the title already? yes. but maybe we should add more info? for e.g.
+    GRs are just GR nos. maybe the date as well as the X v Y should be added?
     :param path:
     :param file_name:
     :return:
     """
+
 
 def main():
     start_time = datetime.now()

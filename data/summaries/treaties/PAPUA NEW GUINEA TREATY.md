@@ -1,0 +1,12 @@
+These are the minutes of a meeting between the Australian and Philippine delegations for the negotiation of a trade agreement. The key points discussed during the meeting include:
+
+1. **Scope of application**: The Australian delegation clarified that the Agreement should not apply to external territories administered by the Australian Government, but would apply to the metropolitan territory of Australia.
+2. **Australian constitutional position**: The Australian delegation explained its constitutional position regarding State Governments and their role in domestic trade, which limited its ability to guarantee most-favored-nation treatment for imported goods.
+3. **Limitations on the Australian Government's powers**: It was agreed that nothing in the Agreement would impose any undertaking on the Australian Government concerning matters within its constitutional powers.
+4. **Quantitative import restrictions**: Both delegations accepted the principle of using quantitative restrictions only to the extent necessary to safeguard a country's external financial position and balance of payments.
+5. **Most-favored-nation principles for foreign exchange reasons**: Delegations considered regulating departures from most-favored-nation principles for foreign exchange reasons by international codes of behavior, such as those of the International Monetary Fund.
+6. **Handicraft and cottage industry products**: The Philippine delegation emphasized the importance of income from handicraft and cottage industry products in developing countries, leading to an agreement that these products should be included in Article VIII.
+7. **State trading organizations**: Both delegations agreed on the need for an understanding on State trading organizations, including a commitment not to depart from non-discriminatory treatment principles in their purchases or sales involving imports and exports.
+8. **State trading enterprise undertakings**: An undertaking was reached that if either government establishes or maintains a State trading enterprise, it would act consistently with the Agreement's general principles of non-discriminatory treatment.
+
+These agreements provide a framework for cooperation between Australia and the Philippines in promoting fair trade practices and protecting the interests of both countries.

@@ -1,0 +1,7 @@
+This is a document related to the transfer of land from the United States to the Philippines. Specifically, it appears to be a formal agreement between the two countries regarding the transfer of ownership and possession of a portion of the Mariveles Military Reservation in Bataan, Luzon, Philippines.
+
+The document describes the boundaries of the transferred area, which is referred to as the "Mariveles Quarantine Reservation (Station)". It also includes provisions for the use and maintenance of the area by the United States Public Health Service, as well as certain rights and liabilities associated with the transfer.
+
+The agreement was signed in 1904, but it seems that there was a review and update of the document in 1947, which is reflected in the Philippine Secretary of Foreign Affairs' note dated December 19, 1947. This note appears to be an acknowledgement of the transfer and an expression of acceptance on behalf of the Government of the Philippines.
+
+It's worth noting that this document may have historical significance, particularly in the context of the Philippines' transition from a US colony to independence in 1946. The agreement may also provide insight into the relationship between the United States and the Philippines during the early 20th century, as well as the country's experience with quarantine stations and public health services.

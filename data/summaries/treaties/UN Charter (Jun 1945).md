@@ -1,0 +1,1 @@
+The list shows countries that have accepted the compulsory jurisdiction of the International Court of Justice in accordance with Article 32, Section 2 of its Statute.

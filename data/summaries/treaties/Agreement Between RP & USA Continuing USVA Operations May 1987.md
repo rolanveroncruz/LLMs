@@ -1,0 +1,1 @@
+This is a excerpt from a treaty between the United States and the Philippines, specifically Article 5, which pertains to the provision of hospital care for Commonwealth Army veterans and New Philippine Scouts.

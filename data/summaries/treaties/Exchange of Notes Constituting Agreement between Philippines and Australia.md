@@ -1,0 +1,9 @@
+It appears that this is a series of letters between the Australian Consul-General in Manila, J.K. Waller, and the Philippine Government regarding air transport agreements and traffic rights for Qantas Empire Airways.
+
+The first letter from Philippine Airlines, Inc., dated January 30th, 1950, expresses their desire to exercise transit rights at Manila and requests that the Philippine Government not object to Qantas Empire Airways exercising traffic stops at Manila along intermediate points. However, they propose that in return for this limited traffic right, Philippine Airlines would have non-scheduled traffic rights at Sydney and Darwin.
+
+The second letter from J.K. Waller, dated January 30th, 1950, explains the situation with regard to Qantas Empire Airways' current military air service between Australia and Japan, which makes technical stops at Manila. He informs the Philippine Government that the Australian authorities are considering replacing this service with a civil air service and desire to exercise traffic rights at Manila on this new service.
+
+The letter also expresses the Australian Government's willingness to send a delegation to negotiate an Air Transport Agreement with the Philippine Government, either in Australia or in Manila. It requests the Philippine Government's views on this proposal and asks if there are any formalities that need to be met regarding the exercise of traffic rights at Manila.
+
+Overall, these letters suggest that the Australian Government is seeking to establish a civil air service between Australia and Japan via Manila, and is looking for cooperation from the Philippine Government in achieving this goal.

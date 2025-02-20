@@ -1,0 +1,5 @@
+This is a series of diplomatic notes and letters exchanged between the United States Embassy in the Philippines and the Department of Foreign Affairs of the Republic of the Philippines, regarding the entry into force of the Visiting Forces Agreement (VFA) between the two countries.
+
+The agreement was signed on February 10, 1998, but it did not come into effect until both countries had notified each other that they had completed their constitutional requirements for entry into force. This notification process took place in June 1999, when both the Department of Foreign Affairs and the Embassy of the United States presented their respective notifications to each other.
+
+The notes confirm that the VFA and its companion agreement entered into force on June 1, 1999, marking a significant milestone in the relationship between the two countries.
